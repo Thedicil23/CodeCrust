@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial Baca Tulis File Python</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        /* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a202c;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1a1a78;
+  }
+  .brand-name h2 {
+    font-size: 24px;
+    color:orangered;
+    font-weight: bold;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    outline: none;
+  }
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #2d3748;
+  border-radius: 8px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-content img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #a0aec0;
+}
+
+/* Tutorial List */
+.tutorial-list {
+  margin-top: 20px;
+}
+
+.tutorial-item {
+  background-color: #2d3748;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tutorial-item:hover {
+  background-color: #4a5568;
+  transform: translateY(-2px);
+}
+
+.tutorial-item i {
+  font-size: 20px;
+  color: #63b3ed;
+  margin-right: 15px;
+}
+
+.tutorial-item a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.tutorial-item a:hover {
+  color: #63b3ed;
+}
+
+    </style>
+      <header>
+        <nav class="navbar">
+          <div class="brand-name">
+            <h2>CODECREST</h2>
+          </div>
+            <ul class="nav-links">
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/pages/blajar.html">Learn</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="HTML, CSS, Java...">
+            </div>
+        </nav>
+    </header>
+  <div class="container">
+    <header class="hero">
+      <div class="hero-content">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo">
+        <div class="text">
+          <h1>Tutorial Baca Tulis File dengan Python</h1>
+          <p>Pada tutorial ini, kita akan belajar membaca dan menulis File dengan Python. Mulai dari File Teks, JSON, XML, CSV, dan sebagainya.</p>
+        </div>
+      </div>
+    </header>
+    <main class="tutorial-list">
+      <div class="tutorial-item">
+        <i class="fas fa-file-alt"></i>
+        <a href="#">Python File: Membaca dan Menulis File Teks di Python</a>
+      </div>
+      <div class="tutorial-item">
+        <i class="fas fa-file-alt"></i>
+        <a href="#">Python File: Membaca File JSON di Python</a>
+      </div>
+      <div class="tutorial-item">
+        <i class="fas fa-file-alt"></i>
+        <a href="#">Python File: Membaca File XML di Python dengan DOM API</a>
+      </div>
+      <div class="tutorial-item">
+        <i class="fas fa-file-alt"></i>
+        <a href="#">Python File: Membaca File CSV di Python</a>
+      </div>
+      <div class="tutorial-item">
+        <i class="fas fa-file-alt"></i>
+        <a href="#">Python File: Membuat Program CRUDS dengan File CSV</a>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
